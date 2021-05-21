@@ -114,8 +114,13 @@ body img.bottom {
 }
 
 @media screen and (min-width: 1025px) {
-  body img.top,
+  body img.top {
+    height: auto;
+    transform: translateY(-50%);
+  }
+
   body img.bottom {
     height: auto;
+    transform: translateY(50%);
   }
 }
